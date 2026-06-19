@@ -1,19 +1,19 @@
 #include <iostream>
 
-void playerhealing(*playerhealth){
+void playerhealing(float *playerhealth){
 
-    playerhealth +=10;
+    *playerhealth +=10;
   }
 
-void EnemyAttack(*playerhealth){
+void EnemyAttack(float *playerhealth){
 
-    playerhealth -=15;
+    *playerhealth -=15;
   }
 
   int main(){
 
-     int playerhealth = 100;
-
+     float playerhealth = 100;
+     playerhealing(playerhealth);
 
     return 0;
   }
