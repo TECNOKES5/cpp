@@ -6,8 +6,8 @@
   //specify with [] to get stored values, the firt one start with 0 then up and beyond
   //all items inside an arry must be the same data type
 
-    std::string food[] = {"Burger", "Pizza", "Toast"};
-
+    std::string food[] = {"Burger", "Pizza", "Toast"}; 
+    
     std::cout << food << '\n';
     std::cout << food[0] << '\n';
     std::cout << food[1] << '\n';
